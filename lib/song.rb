@@ -1,6 +1,6 @@
 class Song 
   def genres 
   end
-    def song 
+    def artists 
   end
   
