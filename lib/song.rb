@@ -23,7 +23,11 @@ def self.count
  def self.artist_count
      #@@artists.map |artist, song| 
   end
+  
  def self.genre_count
-   @@genres.map |genre|  
+   genresarr=[]
+   genrearr2=[]
+  
+   
     end
 end
