@@ -18,11 +18,11 @@ class Song
   def self.artist_count
     @@artists.size
   end
-  binding.pry
   def self.genres
     @@genres.size
 end
 def self.count
   @@count
 end
+  binding.pry
 end
