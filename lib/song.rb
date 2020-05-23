@@ -21,8 +21,9 @@ def self.count
   @@count
  end
  def self.artist_count
-    @@artists.size
+    {@@artists.size}
   end
  def self.genre_count
+   
  end
 end
