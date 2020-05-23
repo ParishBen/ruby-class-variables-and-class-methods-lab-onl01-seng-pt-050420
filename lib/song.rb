@@ -11,7 +11,7 @@ class Song
     @@genres << @genre if !@@genres.include?(@genre)
     @@artists << @artist if !@@artists.include?(@artist)
   end
-    def artists
+    def self.artists
       @@artists
   end
   
