@@ -12,10 +12,10 @@ class Song
     @@artists << @artist #if !@@artists.include?(@artist)
   end
     def self.artists
-      @@artists
+      @@artists.uniq!
   end
   def self.genres
-    @@genres
+    @@genres.uniq!
 end
 def self.count
   @@count
