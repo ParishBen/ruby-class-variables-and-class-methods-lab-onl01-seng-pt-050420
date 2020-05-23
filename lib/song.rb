@@ -8,7 +8,7 @@ class Song
   def initialize(name, artist, genre)
     @name, @artist, @genre = name, artist, genre
     @@count +=1
-    @@genres << @genre if !@@genres.include?(@genre)
+    @@genres << @genre #if !@@genres.include?(@genre)
     @@artists << @artist #if !@@artists.include?(@artist)
   end
     def self.artists
