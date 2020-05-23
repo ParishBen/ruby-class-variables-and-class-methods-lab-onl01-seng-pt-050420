@@ -21,7 +21,7 @@ def self.count
   @@count
  end
  def self.artist_count
-    {} 
+     @@artists.map |artist, song| 
   end
  def self.genre_count
     end
