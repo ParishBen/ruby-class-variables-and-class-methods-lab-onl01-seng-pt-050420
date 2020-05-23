@@ -13,10 +13,10 @@ class Song
     def artists 
   end
   def self.artist_count
-    @@artists
+    @@artists.size
   end
   def self.genres
-    @@genres
+    @@genres.size
 end
 def self.count
   @@count
