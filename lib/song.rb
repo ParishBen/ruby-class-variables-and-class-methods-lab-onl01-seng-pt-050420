@@ -1,3 +1,4 @@
+require "pry"
 class Song 
   attr_accessor :name, :artist, :genre
   @@count = 0
@@ -10,11 +11,14 @@ class Song
     @@genres << @genre if !@@genres.include?(@genre)
     @@artists << @artist if !@@artists.include?(@artist)
   end
-    def artists 
+    def artists
+      @@artists
   end
+  
   def self.artist_count
     @@artists.size
   end
+  binding.pry
   def self.genres
     @@genres.size
 end
